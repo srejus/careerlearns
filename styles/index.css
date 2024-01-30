@@ -1,0 +1,244 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.logo { 
+    font-size: 27px; 
+    font-weight: 600; 
+    color: #0c007d;; 
+    margin-top: -25px;
+    } 
+    
+.gtst{
+    width: 250px;
+}
+
+section{
+    font-weight: 500;
+    padding: 25px;
+    line-height: 30px;
+    width: 80%;
+}
+
+
+
+.contact-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-inner{
+    width: 50%;
+    padding: 10px;
+}
+
+.contact-form{
+    width: 90%;
+    margin-left: 25px;
+}
+
+
+  .contact-txt{
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 55px;
+}
+
+.course-div{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow-y: auto; 
+}
+
+.course-card{
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: #ddd;
+    padding: 15px;
+    margin-right: 15px;
+}
+.course-div::-webkit-scrollbar {
+    display: none;
+  }
+
+ /* Customize the list style to none */
+ ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style the list items with icons */
+ul li::before {
+    content: "\2022"; /* Unicode character for a bullet point */
+    color: transparent; /* Change the color to your preference */
+    display: inline-block;
+    width: 1em; /* Adjust the spacing between the bullet point and text */
+    margin-left: -1em; /* Adjust the spacing between the bullet point and the left edge */
+}
+
+/* Style the list items */
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+
+
+@media(max-width:852px){
+    .logo {
+        margin-top: 0px;
+    }
+    .gtst{
+        width: 100%;
+    }
+
+    .contact-div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-inner{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contact-txt{
+        display: none;
+    }
+    
+}
+
+.container-main{
+    margin-bottom: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 75px;
+
+}
+
+.btn-secondary{
+    background-color: white;
+    border: 1px solid #ddd;
+    color: black;
+}
+
+.main-sec{
+    margin-top: 130px;
+    margin-left: 45px;
+    margin-bottom: 55px;
+}
+
+.main-sec .btn {
+    margin-left: 35px;
+    margin-top: 25px;
+    width: 200px;
+    height: 45px;
+}
+
+.main-heading{
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.banner-div{
+    width: 100%;
+    padding: 10px;
+    height: 350px;
+}
+
+.banner-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 350px;
+}
+
+/* Search Bar */
+
+.search-bar-div{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.search-bar{
+    width: 85%;
+    margin-top: 20px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.search-btn{
+    height: 40px;
+    border: 0.1px solid #ddd;
+    margin-top: -5px;
+    width: 120px;
+}
+
+/* Card Section */
+
+
+.card{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.card p{
+    font-weight: 900;
+}
+
+@media (max-width:852px){
+
+    .main-sec{
+        margin-top: 50px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    .main-heading{
+        font-size: 40px;
+    }
+
+    .banner-div{
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+    
+    .banner-img{
+        width: 100%;
+        object-fit: cover;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .card{
+        width: 40%;
+        height: 70px;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+        object-fit: cover;
+    }
+    
+    
+    
+}
