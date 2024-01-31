@@ -125,18 +125,23 @@
 
       </div>
 
-      <footer>
-        <div class="section">
+      <footer style="justify-content: center;align-items: center;">
+        <!-- <div class="section">
             <p style="color: grey;"><b>Useful Links</b></p>
             <p onclick="window.location.href='/blogs/'">Blog</p>
             <p onclick="window.location.href='/docs/'">API Docs</p>
             <p>FAQ</p>
             <p onclick="window.location.href='/t&c'" style="cursor: pointer;">Terms & Conditions</p>
             <p onclick="window.location.href='/privacy-policy'" style="cursor: pointer;">Privacy Policy</p>
-        </div>
-        <div class="section">
+        </div> -->
+        
+        <div class="section" style="text-align: center;width: 100%;">
+            <br><br><br><br>
             <h5 st>CareerLearns</h5>
-            <div class="row" style="margin-left: -3px;">
+            <!-- <p>careerlearns@gmail.com</p> -->
+            <p>Forms Powered by <a href="https://supersent.in">Supersent</a></p>
+            <p>copyright 2024</p>
+            <!-- <div class="row" style="margin-left: -3px;">
                 <a href="#" style="color: white;text-decoration: non;" target="_blank">
                     <i class="fa fa-facebook"></i>
                 </a>
@@ -154,7 +159,7 @@
                 </a>
                 
                
-                <i class="fa fa-envelope"></i>
+                <i class="fa fa-envelope"></i> -->
             </div>
         </div>
       </footer>
@@ -197,7 +202,10 @@
 
             fetch("https://supersent.in/api/forms/", requestOptions)
             .then(response => response.text())
-            .then(result => window.location.href='/')
+            .then(result => {
+                window.location.href='/';
+                alert("Form Submitted Successfully. We will contact you back soon...");
+            })
             .catch(error => alert("Something Went Wrong Try again Later"));
 
             
