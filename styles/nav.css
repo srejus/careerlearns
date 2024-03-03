@@ -68,4 +68,8 @@ footer p{
     .logo{
         margin-bottom: 0px;
     }
+
+    .btn{
+        width: 100%;
+    }
 }
