@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerLearns</title>
+    
+    <link rel="icon" type="image/x-icon" href="images/social_career_learns_logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container nav">
+            <a class="navbar-brand" href="/">
+                <div class="logosec"> 
+                    <div class="logo" style="font-weight: 800;">
+                        <img src="images/C_LOGO.png" style="width: 200px;margin-top: 0px;" alt="">
+                        </div> 
+                    
+                </div> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">&nbsp;Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#about">&nbsp;About Us</a>
+                    </li>
+                   
+                    
+                   <li class="nav-item">
+                        <a class="nav-link" href="/#why_careerlearns">&nbsp;Why CareerLearns</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        
+                        <a class="nav-link" href="/#contact">&nbsp;
+                            <button class="btn btn-primary" style="margin-top: -10px;">Contact Us</button>
+                        </a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-main">
+
+        <div class="main-sec">
+            <h1 class="main-heading" style="margin-left: 25px;">Education Redefined,<br> Futures Rewritten.</h1>
+            
+            <button class="btn btn-primary" onclick="window.location.href='/#contact'">Learn More</button>
+        
+          
+        </div><br>
+
+        <div class="main-sec" id="about" style="background-color: #222;margin: 0;color: white;padding: 15px;">
+            <br><br>
+            <h2 style="margin-left: 25px;">About Us</h2><br>
+            <p  style="padding-left: 35px;padding-right: 35px;font-size: 18px;line-height: 35px;">Our mission is to equip students with the skills they need for a brighter future. Through our training programs, we ensure they land rewarding jobs with competitive packages based on their qualifications.<br>Guiding individuals towards realizing their
+                full potential and flourishing in a dynamic
+                and ever-changing world, where every
+                person's unique talents are nurtured, and
+                opportunities for growth and success
+                abound.<br>Our goal is to cultivate industry-ready
+                students and foster their growth. As they
+                flourish, they not only elevate their families
+                but also contribute to the prosperity of our
+                nation.</p>
+                    
+          <br><br>
+        </div><br>
+
+        <div class="main-sec">
+            <h2 style="margin-left: 25px;">Why CareerLearns?</h2>
+            <section id="why_careerlearns">
+                <ul>
+                    <li>
+                        <img src="/images/tick.png" alt="" style="width: 20px;">
+                        <strong>1-1 live interactive classes (for online classes only)</strong></li>
+                  
+                    <li>
+                        <img src="/images/tick.png" alt="" style="width: 20px;">
+                        <strong>Affordable Fees</strong></li>
+                
+                    <li>
+                        <img src="/images/tick.png" alt="" style="width: 20px;">
+                        <strong>Placement Assistance and Interview Preparation Guides</strong></li>
+                
+                    <li>
+                        <img src="/images/tick.png" alt="" style="width: 20px;">
+                        <strong>Intership Oppertunities</strong></li>
+                
+                    <li>
+                        <img src="/images/tick.png" alt="" style="width: 20px;">
+                        <strong>All courses are taugh by Working Professionals</strong></li>
+
+                    <li>
+                        <img src="/images/tick.png" alt="" style="width: 20px;">
+                        <strong>Learn by Working with Live projects</strong></li>
+                </ul>
+                
+                <p>Feel free to contact us by fill the form Our team will assist you</p>
+                
+              </section>
+
+        </div>
+
+        <br>
+
+        <div class="sec-div" id="contact">
+            <div class="contact-div">
+                <div class="contact-inner">
+                    <h2 style="font-weight: 800;text-align: center;">Contact Us</h2>
+                    <form method="POST" class="contact-form">
+                        <label for="name">Name*</label>
+                        <input id="name" type="text" name="name" class="form-control" required placeholder="Enter Your Name...."><br>
+
+                        <label for="name">Email*</label>
+                        <input id="email" type="email" name="email" class="form-control" required placeholder="Enter Your Email...."><br>
+
+                        <label for="name">Phone Number*</label>
+                        <input id="number" type="number" name="phone" class="form-control" required placeholder="Enter Your Phone Number...."><br>
+
+                        <label for="name">Ask Us</label>
+                        <textarea id="qn" name="ask" style="resize: none;height: 100px;" type="text" class="form-control" placeholder="Ask your questions...."></textarea><br>
+                        <button class="btn btn-primary w-100" type="button" onclick="submitForm()">Submit</button>
+                    </form>
+                </div>
+
+                <div class="contact-inner">
+                    <h2 class="contact-txt">We Provide The Best For You....</h2>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+      <footer>
+        <div class="section">
+            <p style="color: grey;"><b>Useful Links</b></p>
+           
+
+            <div style="display: flex;flex-direction: row;">
+                <i class="fa fa-envelope" style="margin-top: -5px;"></i>
+                <p style="margin-top: -3px;margin-left: -2px;">careerlearns@gmail.com
+                </p>
+            </div>
+            
+        </div>
+        
+        <div class="section">
+            
+            <h5 st>CareerLearns</h5>
+            <!-- <p>careerlearns@gmail.com</p> -->
+            <p>Forms Powered by <a href="https://supersent.in">Supersent</a></p>
+            <p>copyright 2024</p>
+            <div class="row" style="margin-left: -3px;">
+                <a href="https://www.facebook.com/people/Career-Learns/61557075746473/" style="color: white;text-decoration: non;" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/careerlearns/" style="color: white;text-decoration: non;" target="_blank">
+                    <i class="fa fa-instagram"></i>
+
+                </a>
+
+                <!-- <a href="#" style="color: white;text-decoration: non;" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a> -->
+
+                <a href="https://www.linkedin.com/company/careerlearns" style="color: white;text-decoration: non;" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                
+               
+                <i class="fa fa-envelope"></i>
+            </div>
+        </div>
+      </footer>
+     
+
+      <script>
+        function submitForm(){
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("number").value;
+            var ask = document.getElementById("qn").value;
+            
+            if(name===''){
+                alert("Name is required");
+                return;
+            }
+            if(phone === ''){
+                alert("Phone Number is required")
+                return
+            }
+
+            var myHeaders = new Headers();
+            myHeaders.append("Content-Type", "application/json");
+
+            var raw = JSON.stringify({
+            "form_title": "CareerLearns Form",
+            "api_key": "fcb7193509fd413",
+            "name": name,
+            "phone": phone,
+            "email":email,
+            "question":ask
+            });
+
+            var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: raw,
+            redirect: 'follow'
+            };
+
+            fetch("https://supersent.in/api/forms/", requestOptions)
+            .then(response => response.text())
+            .then(result => {
+                window.location.href='/';
+                alert("Form Submitted Successfully. We will contact you back soon...");
+            })
+            .catch(error => alert("Something Went Wrong Try again Later"));
+
+            
+
+        }
+      </script>
+      
+      <!-- Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
